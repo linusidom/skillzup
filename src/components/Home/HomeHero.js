@@ -1,4 +1,5 @@
 import {Link} from 'react-router-dom'
+import heroImage from '../../assets/heroImage.png'
 
 export const HomeHero = () => {
     return(
@@ -24,7 +25,7 @@ export const HomeHero = () => {
 
                 <div className='heroImage col d-none d-sm-block'>
                     <div className="image">
-                        <img className='fluid' src="assets/heroImage.png" alt="sometext" />
+                        <img className='fluid' src={heroImage} alt="sometext" />
                     </div>
                 </div>
 

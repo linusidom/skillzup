@@ -1,9 +1,9 @@
-import { Layout } from "./components/Layout";
+import { Layout } from "./components/Layout/Layout";
 import {Routes, Route} from 'react-router-dom'
-import {Home} from './components/Home'
-import { SelfPaced } from "./components/SelfPaced";
-import { Process } from "./components/Process";
-import { ContactUs } from "./components/ContactUs";
+import {Home} from './components/Home/Home'
+import { SelfPaced } from "./components/SelfPaced/SelfPaced";
+import { Process } from "./components/Process/Process";
+import { ContactUs } from "./components/Contact/ContactUs";
 function App() {
   return (
     <div>
