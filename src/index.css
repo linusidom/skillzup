@@ -1,0 +1,201 @@
+
+:root {
+  --primary: #F4B324;
+  --secondary: #BAF5F3;
+  --tertiary: #F6E7D8;
+  --line: #F14902;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  
+}
+
+img{
+  max-width: 100%;
+}
+
+li{
+  list-style: none;
+  margin: 0.5rem auto;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+  opacity: 0.7;
+}
+
+.headerText{
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.button {
+  border-radius: 50px;
+  border: none;
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin: 1rem auto;
+  background-color: whitesmoke;
+  text-decoration: none;
+  color: black;
+}
+
+.navHeader {
+  background-color: var(--primary);
+  padding-bottom: 3rem;
+}
+
+
+.hero, .process, .contact{
+  padding: 3rem;
+  color: white;
+  background-color: var(--primary);
+}
+
+.redLine {
+  height: 5px;
+  background-color: var(--line);
+  width: 25%;
+}
+
+.heroHeader, .processHeader, .contactHeader{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.heroSubHeader, .processSubHeader, .contactSubHeader{
+  font-size: 0.8rem;
+  color: black;
+  opacity: 0.7;
+  font-style: italic;
+}
+
+.heroTryItNow, .secondHeroTryItNow, .processTryItNow, .contactTryItNow {
+  margin-right: 1rem; 
+}
+
+.heroCourses, .secondHeroCourses, .processCourses, .contactCourses {
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid var(--secondary);
+}
+
+.heroImage, .processImage{
+  text-align: center;
+}
+
+.homeOptions, .processVirtual, .processLive{
+  padding: 2rem;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.homeOptionsText, .processVirtualText, .processLiveText {
+  margin: 1rem auto;
+}
+
+
+.homeOptionsSubHeader, .processVirtualSubHeader, .processLiveSubHeader{
+  width: 60%;
+  margin: 1rem auto;
+  letter-spacing: 0.08rem;
+  font-size: 0.7rem;
+  opacity: 0.5;
+}
+
+.homeOptionsLearnMore, .processVirtualLearnMore, .processLiveLearnMore  {
+  background-color: var(--secondary);
+}
+
+.optionsImage{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  /* padding: 0 !important; */
+}
+
+.secondHero {
+  background-color: var(--primary);
+
+}
+
+.secondHeroHeader{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+
+.node {
+  background-color: var(--primary);
+}
+
+.ml {
+  background-color: var(--secondary);
+}
+
+.redLineFlex{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.processLive{
+  background-color: #baf5f34f;
+  
+}
+
+.processVirtualCard, .processLiveCard{
+  padding: 2rem;
+}
+
+.processLiveCardText, .processVirtualCardText {
+  font-weight: bold;
+  opacity: 0.7;
+  font-size: 12px;
+}
+
+.processVirtualCard:nth-child(even){
+  background-color: var(--secondary);
+}
+
+.processVirtualCard:nth-child(odd){
+  background-color: var(--primary);
+}
+
+.processLiveCard:nth-child(odd){
+  background-color: var(--tertiary);
+}
+
+.processLiveCard:nth-child(even){
+  background-color: var(--primary);
+}
+
+.formLabel {
+  color: black;
+  opacity: 0.5;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.formControl {
+  background-color: whitesmoke !important;
+}
+
+.footer{
+  text-align: center;
+}
+
+
+@media (max-width: 600px){
+
+  .heroHeader{
+    font-size: 2.5rem;
+  }
+
+  .virtual {
+    margin: 1rem 0 1rem 0 !important;
+  }
+}
