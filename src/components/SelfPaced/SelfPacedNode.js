@@ -1,3 +1,5 @@
+import node from '../../assets/node.png'
+
 export const SelfPacedNode = () => {
     return(
         
@@ -5,7 +7,7 @@ export const SelfPacedNode = () => {
         
             <div className="nodeImage col">
                 <a className='imageLink' href='https://www.youtube.com/watch?v=NPu97NcZpMA&list=PLA_Vc1i8J5NKpMca85O13d8vXd1Vm9Q9G' target='_blank' rel="noreferrer">
-                    <img className='fluid' src="assets/node.png" alt="sometext" />
+                    <img className='fluid' src={node} alt="sometext" />
                 </a>
             </div>
         

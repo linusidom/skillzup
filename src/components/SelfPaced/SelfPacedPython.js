@@ -1,3 +1,5 @@
+import python from '../../assets/python.png'
+
 export const SelfPacedPython = () => {
     return(
             <div className='python row p-5'>
@@ -11,7 +13,7 @@ export const SelfPacedPython = () => {
                     </ul>
                 </div>
                 <div className="pythonImage col">
-                    <img className='fluid' src="assets/python.png" alt="sometext" />
+                    <img className='fluid' src={python} alt="sometext" />
                 </div>
             </div>
     )

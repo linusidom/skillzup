@@ -1,10 +1,11 @@
 import {Link} from 'react-router-dom'
+import developer from '../../assets/developer.png'
 
 export const SecondHero = () => {
     return(
         <div className='secondHero row align-items-center py-5'>
             <div className='developer col d-none d-sm-block'>
-                <img className='fluid' src="assets/developer.png" alt="sometext" />
+                <img className='fluid' src={developer} alt="sometext" />
             </div>
             <div className='secondHeroText col mx-3'>
                 

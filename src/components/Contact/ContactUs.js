@@ -52,7 +52,9 @@ export const ContactUs = () => {
                         <Form.Text className="text-muted">
                                 We'll never share your information with anyone else.
                         </Form.Text>
-                        <button className="button contactButton">Submit</button>
+                        <div>
+                            <button className="button contactButton">Submit</button>
+                        </div>
                     </Form>
                 </div>
 

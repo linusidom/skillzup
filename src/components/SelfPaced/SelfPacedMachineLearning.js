@@ -1,8 +1,10 @@
+import ml from '../../assets/ml.png'
+
 export const SelfPacedMachineLearning = () => {
     return(
         <div className='ml row p-5'>
             <div className="mlImage col">
-                <img className='fluid' src="assets/ml.png" alt="sometext" />
+                <img className='fluid' src={ml} alt="sometext" />
             </div>
 
             <div className="mlText col">

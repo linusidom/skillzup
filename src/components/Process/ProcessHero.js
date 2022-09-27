@@ -1,3 +1,5 @@
+import process from '../../assets/process.png'
+
 export const ProcessHero = () => {
     return (
         <div className='process row align-items-center'>
@@ -21,7 +23,7 @@ export const ProcessHero = () => {
 
             <div className='processImage col d-none d-sm-block'>
                 <div className="image">
-                    <img className='fluid' src="assets/process.png" alt="sometext" />
+                    <img className='fluid' src={process} alt="sometext" />
                 </div>
             </div>
 

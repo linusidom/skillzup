@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom"
+import free from '../../assets/free.png'
+import virtual from '../../assets/virtual.png'
+import classroom from '../../assets/classroom.png'
 
 export const HomeOptions = () => {
     return(
@@ -20,18 +23,18 @@ export const HomeOptions = () => {
 
                 <div className='free col-sm homeOptionsImage px-0 m-2'>
                     <Link to='/selfpaced'>
-                        <img className='fluid' src="assets/free.png" alt="sometext" />
+                        <img className='fluid' src={free} alt="sometext" />
                     </Link>
                 </div>
                 <div className='virtual col-sm homeOptionsImage px-0 m-2'>
                     <Link to='/process'>
-                        <img className='fluid' src="assets/virtual.png" alt="sometext" />
+                        <img className='fluid' src={virtual} alt="sometext" />
                     </Link>
                 </div>
 
                 <div className='classroom col-sm homeOptionsImage px-0 m-2'>
                     <Link to='/process'>
-                        <img className='fluid' src="assets/classroom.png" alt="sometext" />
+                        <img className='fluid' src={classroom} alt="sometext" />
                     </Link>
                 </div>
             </div>
