@@ -26,26 +26,24 @@ export const ContactUs = () => {
                     <Form action='https://formspree.io/f/xdojgbrg' method="POST">
                         <Form.Group className="mb-3" controlId="formBasicName">
                             <Form.Label className='formLabel'>Your Name</Form.Label>
-                            <Form.Control className='formControl' type="text"/>
+                            <Form.Control className='formControl' type="text" name='name'/>
                         </Form.Group>
                         
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label className='formLabel'>Email address</Form.Label>
-                            <Form.Control className='formControl' type="email"/>
+                            <Form.Control className='formControl' type="email" name='email'/>
                         </Form.Group>
                 
                         <Form.Group className="mb-3" controlId="formBasicLinkedIn">
                             <Form.Label className='formLabel'>Your LinkedIn Profile</Form.Label>
-                            <Form.Control className='formControl' type="text" />
-                            </Form.Group>
-                            <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                            <Form.Control className='formControl' type="text" name='linkedIn'/>
                         </Form.Group>
 
-                        <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Group className="mb-3" controlId="formBasicSelect">
                             <Form.Label className='formLabel'>Email address</Form.Label>
-                            <Form.Select className='formControl'>
-                                <option checked>I'm interested in the Virtual Course</option>
-                                <option>I'm interested in the Live Classroom</option>
+                            <Form.Select className='formControl' name="course">
+                                <option checked value='virtual'>I'm interested in the Virtual Course</option>
+                                <option value='live'>I'm interested in the Live Classroom</option>
                             </Form.Select>
                         </Form.Group>
 
