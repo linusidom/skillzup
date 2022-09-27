@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/skillzup/static/css/main.3ccd0441.css",
-    "main.js": "/skillzup/static/js/main.ce77a106.js",
+    "main.css": "/skillzup/static/css/main.6df541d6.css",
+    "main.js": "/skillzup/static/js/main.e1407559.js",
     "static/media/developer.png": "/skillzup/static/media/developer.ec2aa702dc2dd586bb20.png",
     "static/media/free.png": "/skillzup/static/media/free.18272bf381af5c2c000a.png",
     "static/media/classroom.png": "/skillzup/static/media/classroom.4749fae7f8d2b3162ae3.png",
-    "static/media/ml.png": "/skillzup/static/media/ml.5130a477bf59587a1474.png",
     "static/media/node.png": "/skillzup/static/media/node.130b1cbc90e3517a5535.png",
     "static/media/python.png": "/skillzup/static/media/python.fc953c23365860d8dcee.png",
     "static/media/virtual.png": "/skillzup/static/media/virtual.450a01bdf30b473f13cf.png",
     "static/media/heroImage.png": "/skillzup/static/media/heroImage.68085bcfb2bfb99562c5.png",
+    "static/media/ml.jpeg": "/skillzup/static/media/ml.3b2598710c313b6517e5.jpeg",
     "static/media/process.png": "/skillzup/static/media/process.6d82398ce392cc876f8a.png",
     "index.html": "/skillzup/index.html",
-    "main.3ccd0441.css.map": "/skillzup/static/css/main.3ccd0441.css.map",
-    "main.ce77a106.js.map": "/skillzup/static/js/main.ce77a106.js.map"
+    "main.6df541d6.css.map": "/skillzup/static/css/main.6df541d6.css.map",
+    "main.e1407559.js.map": "/skillzup/static/js/main.e1407559.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ccd0441.css",
-    "static/js/main.ce77a106.js"
+    "static/css/main.6df541d6.css",
+    "static/js/main.e1407559.js"
   ]
 }
