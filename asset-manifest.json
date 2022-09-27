@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/skillzup/static/css/main.3ccd0441.css",
-    "main.js": "/skillzup/static/js/main.5fb6221b.js",
-    "static/media/developer.png": "/skillzup/static/media/developer.ec2aa702dc2dd586bb20.png",
-    "static/media/free.png": "/skillzup/static/media/free.18272bf381af5c2c000a.png",
-    "static/media/classroom.png": "/skillzup/static/media/classroom.4749fae7f8d2b3162ae3.png",
-    "static/media/ml.png": "/skillzup/static/media/ml.5130a477bf59587a1474.png",
-    "static/media/node.png": "/skillzup/static/media/node.130b1cbc90e3517a5535.png",
-    "static/media/python.png": "/skillzup/static/media/python.fc953c23365860d8dcee.png",
-    "static/media/virtual.png": "/skillzup/static/media/virtual.450a01bdf30b473f13cf.png",
-    "static/media/heroImage.png": "/skillzup/static/media/heroImage.68085bcfb2bfb99562c5.png",
-    "static/media/process.png": "/skillzup/static/media/process.6d82398ce392cc876f8a.png",
-    "index.html": "/skillzup/index.html",
-    "main.3ccd0441.css.map": "/skillzup/static/css/main.3ccd0441.css.map",
-    "main.5fb6221b.js.map": "/skillzup/static/js/main.5fb6221b.js.map"
+    "main.css": "/static/css/main.3ccd0441.css",
+    "main.js": "/static/js/main.aa6f018d.js",
+    "static/media/developer.png": "/static/media/developer.ec2aa702dc2dd586bb20.png",
+    "static/media/free.png": "/static/media/free.18272bf381af5c2c000a.png",
+    "static/media/classroom.png": "/static/media/classroom.4749fae7f8d2b3162ae3.png",
+    "static/media/ml.png": "/static/media/ml.5130a477bf59587a1474.png",
+    "static/media/node.png": "/static/media/node.130b1cbc90e3517a5535.png",
+    "static/media/python.png": "/static/media/python.fc953c23365860d8dcee.png",
+    "static/media/virtual.png": "/static/media/virtual.450a01bdf30b473f13cf.png",
+    "static/media/heroImage.png": "/static/media/heroImage.68085bcfb2bfb99562c5.png",
+    "static/media/process.png": "/static/media/process.6d82398ce392cc876f8a.png",
+    "index.html": "/index.html",
+    "main.3ccd0441.css.map": "/static/css/main.3ccd0441.css.map",
+    "main.aa6f018d.js.map": "/static/js/main.aa6f018d.js.map"
   },
   "entrypoints": [
     "static/css/main.3ccd0441.css",
-    "static/js/main.5fb6221b.js"
+    "static/js/main.aa6f018d.js"
   ]
 }
