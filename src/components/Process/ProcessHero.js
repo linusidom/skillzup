@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import process from '../../assets/process.png'
 
 export const ProcessHero = () => {
@@ -16,8 +17,8 @@ export const ProcessHero = () => {
                 </div>    
 
                 <div className="processButtons">
-                    <button className='button processTryItNow'>Try It Now</button>
-                    <button className='button processCourses'>Courses</button>
+                    <Link to='/contact' className='button processTryItNow'>Apply Now</Link>
+                    <Link to='/process' className='button processCourses'>Courses</Link>
                 </div>
             </div> 
 
