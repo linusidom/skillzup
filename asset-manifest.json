@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/skillzup/static/css/main.3ccd0441.css",
-    "main.js": "/skillzup/static/js/main.ce803ae8.js",
+    "main.js": "/skillzup/static/js/main.f85a1bae.js",
+    "static/media/heroImage.png": "/skillzup/static/media/heroImage.68085bcfb2bfb99562c5.png",
     "index.html": "/skillzup/index.html",
     "main.3ccd0441.css.map": "/skillzup/static/css/main.3ccd0441.css.map",
-    "main.ce803ae8.js.map": "/skillzup/static/js/main.ce803ae8.js.map"
+    "main.f85a1bae.js.map": "/skillzup/static/js/main.f85a1bae.js.map"
   },
   "entrypoints": [
     "static/css/main.3ccd0441.css",
-    "static/js/main.ce803ae8.js"
+    "static/js/main.f85a1bae.js"
   ]
 }
