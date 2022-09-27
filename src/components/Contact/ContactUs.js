@@ -23,7 +23,7 @@ export const ContactUs = () => {
                 </div> 
 
                 <div className='contactForm col d-none d-sm-block'>
-                    <Form>
+                    <Form action='https://formspree.io/f/xdojgbrg' method="POST">
                         <Form.Group className="mb-3" controlId="formBasicName">
                             <Form.Label className='formLabel'>Your Name</Form.Label>
                             <Form.Control className='formControl' type="text"/>
@@ -53,7 +53,7 @@ export const ContactUs = () => {
                                 We'll never share your information with anyone else.
                         </Form.Text>
                         <div>
-                            <button className="button contactButton">Submit</button>
+                            <button className="button contactButton" type='submit'>Submit</button>
                         </div>
                     </Form>
                 </div>
