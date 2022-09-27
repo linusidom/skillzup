@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/skillzup/static/css/main.3ccd0441.css",
+    "main.js": "/skillzup/static/js/main.ce803ae8.js",
+    "index.html": "/skillzup/index.html",
+    "main.3ccd0441.css.map": "/skillzup/static/css/main.3ccd0441.css.map",
+    "main.ce803ae8.js.map": "/skillzup/static/js/main.ce803ae8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ccd0441.css",
+    "static/js/main.ce803ae8.js"
+  ]
+}
