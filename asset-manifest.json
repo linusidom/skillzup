@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/skillzup/static/css/main.3ba9d000.css",
-    "main.js": "/skillzup/static/js/main.953defab.js",
+    "main.css": "/skillzup/static/css/main.1389adef.css",
+    "main.js": "/skillzup/static/js/main.636b30bb.js",
     "static/media/developer.png": "/skillzup/static/media/developer.ec2aa702dc2dd586bb20.png",
     "static/media/node.png": "/skillzup/static/media/node.130b1cbc90e3517a5535.png",
     "static/media/python.png": "/skillzup/static/media/python.fc953c23365860d8dcee.png",
@@ -9,11 +9,11 @@
     "static/media/ml.jpeg": "/skillzup/static/media/ml.3b2598710c313b6517e5.jpeg",
     "static/media/process.png": "/skillzup/static/media/process.6d82398ce392cc876f8a.png",
     "index.html": "/skillzup/index.html",
-    "main.3ba9d000.css.map": "/skillzup/static/css/main.3ba9d000.css.map",
-    "main.953defab.js.map": "/skillzup/static/js/main.953defab.js.map"
+    "main.1389adef.css.map": "/skillzup/static/css/main.1389adef.css.map",
+    "main.636b30bb.js.map": "/skillzup/static/js/main.636b30bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ba9d000.css",
-    "static/js/main.953defab.js"
+    "static/css/main.1389adef.css",
+    "static/js/main.636b30bb.js"
   ]
 }
