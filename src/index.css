@@ -61,6 +61,12 @@ li{
   border: 3px solid var(--secondary);
 }
 
+
+.brandBold{
+  font-weight: bold;
+  color: white;
+}
+
 .navHeader {
   background-color: var(--primary);
   padding-bottom: 3rem;
