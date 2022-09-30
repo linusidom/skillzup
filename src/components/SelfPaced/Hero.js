@@ -1,7 +1,6 @@
 import {Link} from 'react-router-dom'
-import heroImage from '../../assets/heroImage.png'
 
-export const HomeHero = () => {
+export const SelfPacedHero = () => {
     return(
         
             <div className='hero row align-items-center justify-content-evenly'>
@@ -22,12 +21,6 @@ export const HomeHero = () => {
                         <Link to='/curriculum' className='button buttonCourses'>Courses</Link>
                     </div>
                 </div> 
-
-                <div className='heroImage col d-none d-sm-block'>
-                    <div className="image">
-                        <img className='fluid' src={heroImage} alt="sometext" />
-                    </div>
-                </div>
 
             </div>
  

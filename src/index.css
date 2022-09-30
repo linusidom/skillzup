@@ -28,6 +28,11 @@ li{
   opacity: 0.7;
 }
 
+.heroHeader{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
 .headerText{
   font-size: 2rem;
   font-weight: bold;
@@ -46,16 +51,27 @@ li{
   color: black;
 }
 
+
+.applyNowSecondary {
+  background-color: var(--secondary);
+}
+
+.buttonCourses {
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid var(--secondary);
+}
+
 .navHeader {
   background-color: var(--primary);
   padding-bottom: 3rem;
 }
 
 
-.hero, .process, .contact{
+.hero, .curriculum, .contact{
   padding: 3rem;
   color: white;
   background-color: var(--primary);
+  min-height: 50vh;
 }
 
 .redLine {
@@ -64,43 +80,43 @@ li{
   width: 25%;
 }
 
-.heroHeader, .processHeader, .contactHeader{
+.heroHeader, .curriculumHeader, .contactHeader{
   font-size: 3rem;
   font-weight: bold;
 }
 
-.heroSubHeader, .processSubHeader, .contactSubHeader{
+.heroSubHeader, .curriculumSubHeader, .contactSubHeader{
   font-size: 0.8rem;
   color: black;
   opacity: 0.7;
   font-style: italic;
 }
 
-.heroTryItNow, .secondHeroTryItNow, .processTryItNow, .contactTryItNow {
+.heroTryItNow, .secondHeroTryItNow, .curriculumTryItNow, .contactTryItNow {
   margin-right: 1rem; 
 }
 
-.heroCourses, .secondHeroCourses, .processCourses, .contactCourses {
+.heroCourses, .secondHeroCourses, .curriculumCourses, .contactCourses {
   background-color: rgba(0, 0, 0, 0);
   border: 3px solid var(--secondary);
 }
 
-.heroImage, .processImage{
+.heroImage, .curriculumImage{
   text-align: center;
 }
 
-.homeOptions, .processVirtual, .processLive{
+.homeOptions, .curriculumVirtual, .curriculumLive{
   padding: 2rem;
   text-align: center;
   margin: 1rem auto;
 }
 
-.homeOptionsText, .processVirtualText, .processLiveText {
+.homeOptionsText, .curriculumVirtualText, .curriculumLiveText {
   margin: 1rem auto;
 }
 
 
-.homeOptionsSubHeader, .processVirtualSubHeader, .processLiveSubHeader{
+.homeOptionsSubHeader, .curriculumVirtualSubHeader, .curriculumLiveSubHeader{
   width: 60%;
   margin: 1rem auto;
   letter-spacing: 0.08rem;
@@ -108,8 +124,12 @@ li{
   opacity: 0.5;
 }
 
-.homeOptionsLearnMore, .processVirtualLearnMore, .processLiveLearnMore  {
+.homeOptionsLearnMore, .curriculumVirtualLearnMore, .curriculumLiveLearnMore  {
   background-color: var(--secondary);
+}
+
+.homeOptionsTable{
+  margin-top: 3rem;
 }
 
 .optionsImage{
@@ -137,48 +157,62 @@ li{
   opacity: 0.5;
 }
 
-.node {
-  background-color: var(--primary);
-}
-
-.ml {
+.python {
   background-color: var(--secondary);
 }
+
+
 
 .redLineFlex{
   display: flex;
   justify-content: flex-end;
 }
 
-.processLive{
-  background-color: #baf5f34f;
-  
-}
-
-.processVirtualCard, .processLiveCard{
-  padding: 2rem;
-}
-
-.processLiveCardText, .processVirtualCardText {
-  font-weight: bold;
-  opacity: 0.7;
-  font-size: 12px;
-}
-
-.processVirtualCard:nth-child(even){
+.backEnd{
   background-color: var(--secondary);
 }
 
-.processVirtualCard:nth-child(odd){
-  background-color: var(--primary);
+.frontEndHeader, .backEndHeader, .fullStackHeader{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
-.processLiveCard:nth-child(odd){
-  background-color: var(--tertiary);
+.frontEndHeaderTextSmall, .backEndHeaderTextSmall, .fullStackHeaderTextSmall{
+  font-size: 18px;
+  font-style: italic;
+  opacity: 0.8;
+
 }
 
-.processLiveCard:nth-child(even){
-  background-color: var(--primary);
+.frontEndSubHeader, .backEndSubHeader, .fullStackSubHeader{
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.frontEndFlexTitle, .backEndFlexTitle, .fullStackFlexTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.frontEndFlexSubText, .backEndFlexSubText, .fullStackFlexSubText {
+  font-style: italic;
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+.tableButtonColor{
+  background-color: var(--secondary);
 }
 
 .formLabel {
@@ -192,8 +226,21 @@ li{
   background-color: whitesmoke !important;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 .footer{
   text-align: center;
+  background-color: var(--primary);
 }
 
 
@@ -206,4 +253,24 @@ li{
   .virtual {
     margin: 1rem 0 1rem 0 !important;
   }
+
+  .homeOptionsTable{
+    font-size: 8px;
+  }
+
+  .homeOptionsTable .button{
+    padding: 0.2rem 0.5rem;
+    font-size: 6px;
+  }
+
+  .hideOnSmall {
+    display: none;
+  }
+
+  .frontEndVirtualBox{
+    text-align: right;
+  }
+
+
+
 }
